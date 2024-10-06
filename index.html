@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Target</title>
+    <link rel="stylesheet" href="./build/tailwind.css" />
+    <link rel="stylesheet" href="./build/app.css" />
+  </head>
+
+  <body class="bg-white">
+    <!-- Header Section -->
+    <header class="bg-white py-4 px-6 shadow-sm">
+      <div class="container mx-auto flex flex-col md:flex-row items-center">
+        <div class="flex items-center space-x-2 mb-2 md:mb-0 md:mr-5"> <!-- Logo and brand name -->
+          <img src="assets/logo.png" alt="logo" class="h-8 w-8">
+          <div class="text-lg font-bold text-red-600 font-designour">Target</div>
+        </div>
+        <nav class="text-center mb-2 md:mb-0 md:mr-auto"> <!-- Navigation centered on mobile and left on desktop -->
+          <a href="#" class="text-gray-300 hover:text-red-600 font-designour">Premium landing page template</a>
+        </nav>
+        <div class="text-red-600 font-bold text-center text-sm md:text-lg font-designour md:ml-auto"> <!-- Call Now centered on mobile and right on desktop -->
+          Call Now! 1-800-123-456
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Section -->
+    <section class="container mx-auto py-12 flex flex-col md:flex-row items-center px-4 md:px-8 lg:px-16">
+      <div class="md:w-1/2">
+        <h1 class="text-3xl sm:text-4xl font-bold mb-4 font-designosaur">The perfect way to convert your traffic into sales</h1>
+        <p class="text-gray-600 mb-6 text-sm sm:text-base">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+        <p class="text-gray-600 mb-6 text-sm sm:text-base">Epsum factorial non deposit quid pro quo hic escorol. Olypian quarrels et gorilla congolium sic ad nauseum.</p>
+        <div class="space-x-4 flex items-center">
+          <button class="border border-gray-500 text-white px-6 py-2 rounded-full font-designour" style="background-color: orange;">Purchase now!</button>
+          <h5 class="text-gray-600 mx-4 text-sm">or</h5>
+          <button class="border border-gray-500 bg-gray-200 text-gray-600 px-6 py-2 rounded-full">Take a tour</button>
+        </div>
+      </div>
+      <div class="relative w-full md:w-2/3 mt-8 md:mt-0 flex justify-center">
+        <img src="assets/pic1.png" alt="picture" class="rounded-lg shadow-md w-full h-auto relative" style="width: calc(100% - 30px);">
+        <button class="absolute top-1/2 left-0 transform -translate-y-1/2 bg-gray-200 rounded-full shadow-lg p-2 md:p-3 hover:bg-gray-300 transition focus:outline-none">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 md:h-5 md:w-5 text-gray-600 font-bold" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7" />
+          </svg>
+        </button>
+        <button class="absolute top-1/2 right-0 transform -translate-y-1/2 bg-gray-200 rounded-full shadow-lg p-2 md:p-3 hover:bg-gray-300 transition focus:outline-none">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 md:h-5 md:w-5 text-gray-600 font-bold" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+          </svg>
+        </button>
+      </div>
+    </section>
+
+    <hr class="border-gray-300 my-8 mx-4 md:mx-8 lg:mx-16" />
+
+    <!-- Features Section -->
+    <section class="container mx-auto py-12 px-4 md:px-8 lg:px-16">
+      <!-- Code for Desktop -->
+      <div class="hidden md:grid grid-cols-3 gap-8 text-center">
+        <div class="flex items-start mb-6">
+          <div class="mr-4 w-12 flex-shrink-0">
+            <img src="assets/icon1.png" alt="Quick and Easy" class="w-full h-auto">
+          </div>
+          <div class="max-w-xs leading-relaxed">
+            <h3 class="font-bold text-lg mb-2 text-left">Quick and Easy</h3>
+            <p class="text-gray-600 text-sm sm:text-base text-left">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+          </div>
+        </div>
+        <div class="flex items-start mb-6">
+          <div class="mr-4 w-12 flex-shrink-0">
+            <img src="assets/icon2.png" alt="Less Risky" class="w-full h-auto">
+          </div>
+          <div class="max-w-xs leading-relaxed">
+            <h3 class="font-bold text-lg mb-2 text-left">Less Risky</h3>
+            <p class="text-gray-600 text-sm sm:text-base text-left">Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan.</p>
+          </div>
+        </div>
+        <div class="flex items-start mb-6">
+          <div class="mr-4 w-12 flex-shrink-0">
+            <img src="assets/icon3.png" alt="Optimized" class="w-full h-auto">
+          </div>
+          <div class="max-w-xs leading-relaxed">
+            <h3 class="font-bold text-lg mb-2 text-left">Optimized</h3>
+            <p class="text-gray-600 text-sm sm:text-base text-left">Epsum factorial non deposit quid pro quo hic escorol. Olypian quarrels et gorilla congolium sic ad nauseum. Souvlaki ignitus carborundum e pluribus unum.</p>
+          </div>
+        </div>
+      </div>
+    
+      <!-- Code for Mobile -->
+      <div class="grid md:hidden gap-8 text-center">
+        <div>
+          <div class="mb-4">
+            <img src="assets/icon1.png" alt="Quick and Easy" class="mx-auto">
+          </div>
+          <h3 class="font-bold text-lg mb-2">Quick and Easy</h3>
+          <p class="text-gray-600 text-sm sm:text-base">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+        </div>
+        <div>
+          <div class="mb-4">
+            <img src="assets/icon2.png" alt="Less Risky" class="mx-auto">
+          </div>
+          <h3 class="font-bold text-lg mb-2">Less Risky</h3>
+          <p class="text-gray-600 text-sm sm:text-base">Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan.</p>
+        </div>
+        <div>
+          <div class="mb-4">
+            <img src="assets/icon3.png" alt="Optimized" class="mx-auto">
+          </div>
+          <h3 class="font-bold text-lg mb-2">Optimized</h3>
+          <p class="text-gray-600 text-sm sm:text-base">Epsum factorial non deposit quid pro quo hic escorol. Olypian quarrels et gorilla congolium sic ad nauseum. Souvlaki ignitus carborundum e pluribus unum.</p>
+        </div>
+      </div>
+    </section>   
+
+    <hr class="border-gray-300 my-8 mx-4 md:mx-8 lg:mx-16" />
+
+    <section class="container mx-auto py-12 flex flex-col md:flex-row items-start px-4 md:px-8 lg:px-16">
+      <div class="md:w-2/3">
+        <h3 class="text-xl font-bold mb-4">Check out the features</h3>
+        <p class="text-gray-600">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Epsum factorial non deposit quid pro quo hic escorol. Olypian quarrels et gorilla congolium sic ad nauseum. Epsum factorial non deposit quid pro quo hic escorol. Olypian quarrels et gorilla congolium sic ad nauseum. Souvlaki ignitus carborundum e pluribus unum. Defacto lingo est igpay atinlay. Marquee selectus non provisio incongruous feline nolo contendre. Gratuitous octopus niacin, sodium glutimate.</p>
+      </div>
+      <div class="md:w-1/3 mt-8 md:mt-0 pl-5 pt-5">
+        <ul class="space-y-4">
+          <li class="flex items-center">
+            <img src="assets/check-icon.png" alt="check-icon" class="mr-2">
+            <span style="color: orange;">Lorem ipsum dolor sit amet</span>
+          </li>
+          <hr class="border-gray-300 my-8" />
+          <li class="flex items-center">
+            <img src="assets/check-icon.png" alt="check-icon" class="mr-2">
+            <span style="color: orange;">Consectetur adipisicing elit sed diam</span>
+          </li>
+          <hr class="border-gray-300 my-8" />
+          <li class="flex items-center">
+            <img src="assets/check-icon.png" alt="check-icon" class="mr-2">
+            <span style="color: orange;">Nonummy nibh euismod tincidunt</span>
+          </li>
+          <hr class="border-gray-300 my-8" />
+          <li class="flex items-center">
+            <img src="assets/check-icon.png" alt="check-icon" class="mr-2">
+            <span style="color: orange;">Nonummy nibh euismod tincidunt</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <hr class="border-gray-300 my-8 mx-4 md:mx-8 lg:mx-16" />
+    <section class="container mx-auto px-5 py-12">
+      <h3 class="text-xl font-bold mb-4 text-center">The screenshots</h3>
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+        <div class="relative">
+          <img src="assets/pic2.png" alt="Screenshot 0" class="rounded-lg shadow-md w-full h-full object-cover">
+          <img src="assets/search-icon.png" alt="Search Icon" class="absolute inset-0 w-full h-full rounded-lg opacity-50">
+        </div>
+        <img src="assets/pic2.png" alt="Screenshot 1" class="rounded-lg shadow-md w-full h-full object-cover">
+        <img src="assets/pic2.png" alt="Screenshot 2" class="rounded-lg shadow-md w-full h-full object-cover">
+        <img src="assets/pic2.png" alt="Screenshot 3" class="rounded-lg shadow-md w-full h-full object-cover">
+      </div>
+    </section>
+    <hr class="border-gray-300 my-8 mx-4 md:mx-8 lg:mx-16" />
+    <section class="container mx-auto py-12 px-4 md:px-8 lg:px-16">
+      <h1 class="text-lg sm:text-xl font-bold mb-4">See what our customers are saying...</h1>
+      <div class="relative">
+        <blockquote class="text-lg sm:text-xl italic mb-4 relative z-10 px-4 sm:px-16 text-center" style="border: 1px solid #ccc; border-radius: 10px; background-color: #f9f9f9;">
+          "Li Europan lingues es membres del sam familie. Por scientie, musica, sport etc, li tot Europa usa li sam vocabularium."
+        </blockquote>
+      </div>
+      <cite class="text-gray-600 relative z-10">Mike Tyson, Microsoft</cite>
+      <div class="space-x-4 flex items-center justify-center pt-4">
+        <button class="border border-gray-500 text-white px-6 py-2 rounded-full" style="background-color: orange;">Purchase now!</button>
+        <h5 class="text-gray-600 mx-4">or</h5>
+        <button class="border border-gray-500 bg-gray-200 text-gray-600 px-6 py-2 rounded-full">Take a tour</button>
+      </div>
+    </section>
+    
+    <footer class="bg-gray-800 text-white py-12 px-4 md:px-8 lg:px-16">
+      <div class="container mx-auto grid md:grid-cols-4 gap-8">
+        <div>
+          <h4 class="font-bold mb-4">Payment method</h4>
+          <p>Ma quistian lingues coalesce, li grammatica del resultant lingues es plu simplic e regular quam.</p>
+          <div class="flex pr-5" style="padding-top: 10px;">
+            <img src="assets/mastercard.png" alt="mastercard" class="mr-1">
+            <img src="assets/paypal.png" alt="paypal" class="mr-1">
+            <img src="assets/visaelectron.png" alt="visaelectron">
+          </div>
+        </div>
+        <div>
+          <h4 class="font-bold mb-4">Get in touch</h4>
+          <p>123 Main Street<br>San Francisco, CA 94101<br>Email: webdesign@shog.com</p>
+        </div>
+        <div>
+          <h4 class="font-bold mb-4">Design details</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+        <div>
+          <img src="assets/Layer 1.png" alt="">
+        </div>
+      </div>
+      <div class="mt-8 flex flex-col md:flex-row justify-between items-center">
+        <div class="text-left mb-2 md:mb-0">&copy; 2021 Target. All rights reserved.</div>
+        <div class="flex">
+          <img src="assets/picons31.png" alt="" class="mr-2">
+          <img src="assets/picons32.png" alt="" class="mr-2">
+          <img src="assets/picons35.png" alt="" class="mr-2">
+          <img src="assets/picons36.png" alt="" class="mr-2">
+          <img src="assets/picons41.png" alt="" class="mr-2">
+          <img src="assets/picons48.png" alt="" class="mr-2">
+          <img src="assets/picons50.png" alt="" class="mr-2">
+        </div>
+      </div>
+    </footer>    
+  </body>
+</html>
